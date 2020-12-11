@@ -1,0 +1,13 @@
+{
+  "name": "com.sandolkakosdigital.commonutilities",
+  "version": "1.0.0",
+  "displayName": "Common Utilities",
+  "description": "Package with some common utilities.",
+  "keywords": [
+    "commonutilities"
+  ],
+  "author": {
+    "name": "Marllon Vilano",
+    "url": "https://github.com/sandolkakos"
+  }
+}
