@@ -7,29 +7,29 @@ Package with some common utilities for Unity Game Engine.
 ## SceneHierarchyUtility
 Editor functionalities from internal SceneHierarchyWindow and SceneHierarchy classes:
 
-```
+```csharp
 // Check if the target GameObject is expanded (aka unfolded) in the Hierarchy view.
 SceneHierarchyUtility.IsExpanded(GameObject go)
 ```
 
-```
+```csharp
 // Get a list of all GameObjects which are expanded (aka unfolded) in the Hierarchy view.
 SceneHierarchyUtility.GetExpandedGameObjects()
 ```
 
-```
+```csharp
 // Set the target GameObject as expanded (aka unfolded) in the Hierarchy view.
 SceneHierarchyUtility.SetExpanded(GameObject go, bool expand)
 ```
 
-```
+```csharp
 // Set the target GameObject and all children as expanded (aka unfolded) in the Hierarchy view.
 SceneHierarchyUtility.SetExpandedRecursive(GameObject go, bool expand)
 ```
 ----
 ## DefaultEditorUtility
 Useful to create and destroy a default UnityEditor object like TransformEditor, RectTransformEditor when customizing them like the example below:
-```c-sharp
+```csharp
 [CustomEditor(typeof(RectTransform), true)]
 public class RectTransformCustomInspector : UnityEditor.Editor
 {
