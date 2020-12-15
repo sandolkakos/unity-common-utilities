@@ -4,7 +4,6 @@
     "includePlatforms": [],
     "excludePlatforms": [
         "Android",
-        "CloudRendering",
         "Editor",
         "iOS",
         "LinuxStandalone64",
